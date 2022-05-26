@@ -1,33 +1,33 @@
-### These are all the scripts in the 0x00-shell-basics folder and what they do
+### These are all the scripts in the 0x01-shell_permissions folder and what they do
+
 ---
 
+- **0-iam_betty :** changes the current user to betty
 
-* __0-iam\_betty :__   changes the current user to betty
+- **1-who_am_i :** Prints the effective username of the current user.
 
-* __1-listit__   Displays the list of the contents of the current directory.
+- **2-groups :** Prints all groups that current user is part of.
 
-* __2-bring\_me\_home__   Changes the working directory to the home directory of the user.
+- **3-new_owner :** Changes the owner of the file hello to betty.
 
-* __3-listfiles__   Displays a list of contents in the current directory in long format
+- **4-empty :** Creates and empty file called hello.
 
-* __4-listmorefiles__   Displays a list of contents in the current directory, including hidden files in long format.
+- **5-execute :** Adds execute permission to the owner of the file hello.
 
-* __5-listfilesdigitonly__   Displays a list of contents in current directory, including hidden files with user and group IDs in numeric form in long format.
+- **6-multiple_permissions :** Adds executing permission to owner and group, and reading permission to other users for the file hello.
 
-* __6-firstdirectory__   Creates a directory named my\_first\_directory in the \/tmp\/ directory.
+- **7-everybody :** Sets executing permission for all users of the file hello.
 
-* __7-movethatfile__   Moves a file named betty from \/tmp\/ to \/tmp\/my\_first\_directory.
+- **8-James_Bond :** Sets the permission of the file hello as no permission for owner and group and all for other users.
 
-* __8-firstdelete__   Deletes a file named betty.
+- **9-John_Doe :** Sets the mode of the file hello to `-rwxr-x-wx`.
 
-* __9-firstdirdeletion__    Deletes the directory my\_first\_directory in the \/tmp directory.
+- **10-mirror_permissions :** Sets the mode of file hello to the same as the mode of file olleh.
 
-* __10-back__   Changes the working directory to a previous one.
+- **11-directories_permissions :** Adds execute permission to all subdirectories of the current directory for all users.
 
-* __11-lists__   Lists all files, including hidden files in the current directory, parent directory of the working directory and the \/boot directory respectively.
+- **12-directory_permissions :** Creates a directory my_dir with chmod 751 in working directory.
 
-* __12-file\_type__   It prints the type of the iamafile in the \/tmp directory.
+- **13-change_group :** Changes the group ower of file hello to school.
 
-* __13-symbolic\_link__   Creates a symbolic link, soft link, to \/bin\/ls with the name \_\_ls\_\_ in the current working directory.
- 
-* __14-copy\_html__   Copies all HTML files from the current working directory to the its parent directory without copying files which exist in the parent directory or newer than the former.
+- **14-copy_html** Copies all HTML files from the current working directory to the its parent directory without copying files which exist in the parent directory or newer than the former.

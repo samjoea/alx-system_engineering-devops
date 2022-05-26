@@ -1,1 +1,2 @@
-#!/bin/bash\nchmod a+X *
+#!/bin/bash
+chmod a+X *
