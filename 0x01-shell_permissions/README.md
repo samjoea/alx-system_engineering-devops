@@ -30,4 +30,10 @@
 
 - **13-change_group :** Changes the group ower of file hello to school.
 
-- **14-copy_html** Copies all HTML files from the current working directory to the its parent directory without copying files which exist in the parent directory or newer than the former.
+- **100-change_owner_and_group :** Changes the owner to vincent and group owner to staff fot all the files and directories in the working directory.
+
+- **101-symbolic_link_permissions :** Changes the owner and group owner of symbolic link _hello to vincent and staff.
+
+- **102-if_only :** Changes the owner of the file hello to betty if the file is owned by the user guillaume.
+
+- **103-Star_Wars :** Play the StarWars IV episode in the terminal.
