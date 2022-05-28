@@ -31,3 +31,11 @@
 * __13-symbolic\_link__   Creates a symbolic link, soft link, to \/bin\/ls with the name \_\_ls\_\_ in the current working directory.
  
 * __14-copy\_html__   Copies all HTML files from the current working directory to the its parent directory without copying files which exist in the parent directory or newer than the former.
+
+* __100-lets_move__   Moves all files begining with an uppercase to the directory /tmp/u.
+
+* __101-clean_emacs__   Deletes all files that ends with the character ~ in the current directory.
+
+* __102-tree__   Creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+
+* __103-commas__   Lists all files and directories separated by `,`, ends with a `/`, sorted by digits and letters with digits being first and shows hidden files at the beginning of the list
