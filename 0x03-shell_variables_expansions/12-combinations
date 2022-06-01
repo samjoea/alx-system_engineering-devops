@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | grep -e '[a-z][a-z]' -o | sort | uniq -u
+echo {a..z}{a..z} | grep -e 'oo' -v | sort -u
